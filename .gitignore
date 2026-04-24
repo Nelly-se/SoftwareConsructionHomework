@@ -12,3 +12,20 @@
 # 4. 忽略一些临时文件
 *.tmp
 *.log
+
+# 忽略编译生成的目录
+[Bb]in/
+[Oo]bj/
+
+# 忽略 NuGet 下载的依赖包目录
+packages/
+*.nupkg
+
+# 忽略本地生成的 SQLite 数据库文件（避免把本地测试数据传上去）
+*.db
+*.sqlite
+*.sqlite3
+
+# 忽略 VS 用户的本地配置缓存
+.vs/
+*.user
